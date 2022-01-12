@@ -1,4 +1,4 @@
-FROM bitnami/python:3.10-prod
+FROM quay.io/bitnami/python:3.10-prod
 
 RUN pip3 install flask ; \
     mkdir /webroot
